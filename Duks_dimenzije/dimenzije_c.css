@@ -1,0 +1,79 @@
+
+@font-face {
+	font-family: "CZARN";
+	src: url(CZARN.ttf);
+}
+
+body {
+	margin: 0 100px;
+}
+
+h1, h3, p, td {
+	font-family: "CZARN";
+}
+
+p {
+	font-size: 1.1em;
+}
+
+h1 {
+	font-size: 2em;
+	margin-top: 90px;
+}
+
+.saveti {
+	font-size: 1.1em;
+	padding-bottom: 20px;
+}
+
+.img {
+	float: right;
+	margin: 10px 30px 0 0;
+}
+
+.p1 {
+	padding-bottom: 20px;
+}
+
+.paragraf {
+	width: 270px;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+hr {
+	height: 2px;
+	background-color: black;
+}
+
+.drugi_h3 {
+	margin: 30px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    font-size: 1.1em;
+    border-collapse: collapse;
+  	height: 35px;
+}
+
+tr:nth-child(2n+3) {
+    background: #eee;
+}
+
+caption {
+	caption-side: bottom;
+	text-align: left;
+	margin: 30px 0;
+	font-size: 1.05em;
+}
+
